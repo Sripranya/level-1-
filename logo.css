@@ -1,0 +1,109 @@
+.logo{
+    height:2%;
+    width:2%;
+}
+.title{
+    color:pink;
+    padding-left:35px;
+    padding-right: 850px;
+}   
+.menu a{
+    text-decoration: none;
+    color:pink;
+    padding:10px 20px;
+    font-size: 30px;
+    position:relative;
+}
+.menu a::before{
+    content:'' ;
+    position: absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height: 100%;
+    border-bottom:3px solid pink;
+    transition: 0.4s linear;
+}
+.navbaritems{
+    display: flex;
+    position: relative;
+    background-color: rgb(0,0,0);
+}
+.menu a:hover::before{
+    width: 90%;
+}
+.main{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url("main_img.jpg");
+    background-size: cover;
+}
+.quote{
+    color:white;
+    font-size:70px;
+    margin-left:520px;
+}
+.know_more{
+    color:pink;
+    margin-left:39%;
+    margin-top: 8%;
+}
+h1 .s{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: palevioletred;
+    margin-left:35px;
+
+}
+.btn{
+    height:40px;
+    width:150px;
+    margin-right:10px;
+    border-radius: 60px;
+    font-size:18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(212, 34, 108);
+}
+.btns{
+    margin-left:38%;
+}
+.why{
+    margin-top:60px;
+    margin-bottom: 10px;
+    margin-left:580px;
+    width:250x;
+    color:rgb(184, 63, 33)
+}
+.why_matter{
+    width:1000px;
+    margin-left:270px;
+    margin-bottom:60px;
+}
+.one_third_quote{
+    margin-right:100px;
+    font-size:45px;
+}.col_gap{
+    margin-right:50%;
+}
+.table{
+    margin-left :25%;
+}
+.change{
+    color:rgb(18, 128, 91);
+}
+.key{
+    display:flex;
+    position:relative;
+    justify-content:space-evenly;
+}
+.key_item{
+    width:150px;
+}
+.key_img{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
